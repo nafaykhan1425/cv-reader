@@ -9,7 +9,7 @@ from pypdf import PdfReader
 from docx import Document
 
 APP_TITLE = "Resume ATS Checker"
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 
 
 def get_saved_api_key() -> str:
